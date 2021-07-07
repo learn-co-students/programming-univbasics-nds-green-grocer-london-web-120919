@@ -23,7 +23,8 @@ describe "Grocer" do
     ]
   end
 
-  describe "#find_item_by_name_in_collection takes two arguments: a String and an AoH" do
+
+  describe find_item_by_name_in_collection(string,aoh) do
     let(:test_cart) do
       [
         { :item => "DOG FOOD" },
